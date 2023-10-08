@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header nav {
+    background-color: #363a3b;
+}
+
+header nav .logoImg {
+    width: 120px;
+}
+
+header nav .buy-tickets {
+    color: #32bb50;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    background: rgb(0, 62, 124);
+    background: linear-gradient(90deg, rgba(0, 62, 124, 1) 0%, rgba(9, 56, 93, 1) 47%, rgba(0, 90, 108, 1) 100%);
+}
+
+#mainBanner,
+#mainBanner .carousel-item {
+    max-height: 80vh;
+}
+
+.bannerImg {
+    filter: brightness(0.4);
+}
+
+.bannerContainer {
+    position: absolute;
+    top: 0;
+}
+
+.cardContainer {
+    max-width: 400px;
+}
+
+.sendButtonForm {
+    background-color: #32bb50;
+    color: white;
+}
+
+.sendButtonForm:hover {
+    background-color: #32bb50;
+    color: white;
+}
