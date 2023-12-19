@@ -69,20 +69,18 @@
 
     <main>
       <section id="mainBanner" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner d-flex align-content-center">
           <div class="carousel-item active">
             <img
               src="./img/ba1.jpg"
-              class="d-block w-100 bannerImg"
+              class="bannerImg"
               alt="imagen de Buenos Aires"
             />
 
-            <div
-              class="carousel-caption justify-content-end w-50 h-50 ms-auto mb-5"
-            >
+            <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-lg-end text-md-end">
               <div class="bannerText">
-                <h2 class="fs-1 text-end">Conf Bs As</h2>
-                <p class="fs-5 text-end">
+                <h2 class="text-center">Conf Bs As</h2>
+                <p class="center">
                   Bs As llega por primera vez a Argentina. Un evento para
                   compartir con nuestra comunidad el conocimiento y experiencia
                   de los expertos que están creando el futuro de internet. Ven a
@@ -92,17 +90,22 @@
                 </p>
               </div>
 
-              <div class="text-end">
-                <a href="#">
-                  <button class="btn btn-outline-light">
-                    Quiero ser orador
-                  </button>
-                </a>
-
-                <a href="./pages/tickets.html">
-                  <button class="btn btn-success">Comprar tickets</button>
-                </a>
+              <div class="d-md-flex justify-content-md-end">
+                    <div class="mb-2 me-md-4">
+                        <a href="#seccionOradores">
+                            <button class="btn btn-outline-light">
+                              Quiero ser orador
+                            </button>
+                          </a>
+                    </div>
+    
+                    <div class="">
+                        <a href="./pages/tickets.html">
+                            <button class="btn btn-success">Comprar tickets</button>
+                          </a>
+                    </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -224,7 +227,7 @@
         </div>
       </article>
 
-      <section class="container my-4">
+      <section class="container my-4" id="seccionOradores">
         <p class="text-center">
           CONVIÉRTETE EN UN <br />
           <span class="fs-2 fw-bolder">ORADOR</span> <br />
