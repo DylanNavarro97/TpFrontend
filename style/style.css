@@ -56,3 +56,9 @@ footer {
     background-color: #32bb50;
     color: white;
 }
+
+@media all and (min-width: 568px){
+    .orador-form{
+        width: 75vw;
+    }
+}
